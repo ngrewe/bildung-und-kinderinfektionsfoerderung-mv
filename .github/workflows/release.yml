@@ -28,7 +28,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: 2021-21-h2/statistischedatenzumpandemieverlauf-inkllk.pdf
+          file: 2021-22-h2/statistischedatenzumpandemieverlauf-inkllk.pdf
           asset_name: 2021-22-h2.pdf
           tag: ${{ github.ref }}
       - name: Upload 2021/22 2. Halbjahr CSV to Release
@@ -36,6 +36,6 @@ jobs:
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: 2021-22-h2/2021-22-h2.csv
-          asset_name: 2021-21-h2.csv
+          asset_name: 2021-22-h2.csv
           tag: ${{ github.ref }}
       
